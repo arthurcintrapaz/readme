@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="">
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+        <br>
+        <label for="age">Idade: </label>
+        <input type="text" name="age" id="age">
+        <br>
+        <label for="pass">Senha:</label>
+        <input type="password" name="pass" id="pass">
+        <br>
+        <fieldset>
+            <legend>Sexo:</legend>
+            <input type="radio" name="Sex" id="sex">
+            <label for="sex">M:</label>
+            <input type="radio" name="Sex" id="sex">
+            <label for="sex">F:</label>
+        </fieldset>
+        <fieldset>
+            <legend>Estado Civil:</legend>
+            <input type="radio" name="civil" id="civil">
+            <label for="civil">Casado:</label>
+            <input type="radio" name="civil" id="civil">
+            <label for="civil">Enrolado:</label>
+            <input type="radio" name="civil" id="civil">
+            <label for="civil">Solteiro:</label>
+        </fieldset>
+        <fieldset>
+            <legend>Comida Favorita</legend>
+            <input type="checkbox" name="food" id="food">
+            <label for="food">Macarrão:</label>
+            <br>
+            <input type="checkbox" name="food" id="food">
+            <label for="food">Frango:</label>
+        </fieldset>
+
+        <label for="arquivo">Selecione seu arquivo:</label>
+        <input type="file" name="arquivo" id="arquivo">
+        <br>
+
+        <label for="cor">Selecione uma cor:</label>
+        <input type="color" name="cor" id="cor">
+        <br>
+
+        <label for="da">Selecione uma data:</label>
+        <!-- <input type="time" name="hour" id="hour"> -->
+        <input type="date" name="da" id="da">
+        <br>
+
+        <label for="mail">Email:</label>
+        <input type="email" name="mail" id="mail">
+        <br>
+
+        <label for="num">Número:</label>
+        <input type="number" name="num" id="num">
+        <br>
+        <input type="range" name="number" id="number">
+        <br>
+
+        <label for="date">Selecione uma data:</label>
+        <input type="date" name="date" id="date">
+        <br>
+
+        <label for="dh">Selecione uma data e hora:</label>
+        <input type="datetime" name="dh" id="dh">
+        <br>
+
+        <label for="dhl">Selecione uma data, hora e local:</label>
+        <input type="datetime-local" name="dhl" id="dhl">
+        <br>
+
+        <label for="hour">Selecione um horario:</label>
+        <input type="time" name="hour" id="hour">
+        <br>
+
+        <label for="hour">Selecione uma semana:</label>
+        <input type="week" name="semana" id="semana">
+        <br>
+
+        <label for="mes">Selecione um mês:</label>
+        <input type="month" name="mes" id="kmes">
+        <br>
+
+        <textarea name="curriculo" id="" cols="30" rows="5"> Caixa de texto com 5 linhas e 30 colunas</textarea>
+        <br>
+
+            <select name="state" id="state">
+                <option value="state">VERDE</option>
+                <option value="state">VERMELHO</option>
+                <option value="state">ROXO</option>
+            </select>
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url">
+        <br>
+
+        <input type="button" value="Enviar">
+        <input type="reset" value="Redefinir">
+
+    </form>
+</body>
+</html>
